@@ -1,0 +1,75 @@
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background:rgb(211,178,224);
+padding: 15px;
+color: white;
+}
+.logo {
+font-size: 24px;
+font-weight: bold;
+}
+nav ul {
+list-style: none;
+display: flex;
+gap: 15px;
+margin: 0;
+padding: 0;
+}
+nav a {
+color: white;
+text-decoration: none;
+}
+.account-links a {
+    margin-right: 15px;
+    color:darkslategray; /* Atau sesuaikan dengan kebutuhan */
+}
+.search-cart {
+display: flex;
+gap: 10px;
+
+}
+.banner img {
+width: 100%;
+display: block;
+}
+.categories {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+text-align: center;
+}
+.category {
+background: white;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.category img {
+width: 200px;
+height: auto;
+border-radius: 5px;
+}
+.category button {
+margin-top: 10px;
+padding: 10px;
+border: none;
+background: black;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+}
+.best-products {
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+padding: 20px;
+background: black;
+color: white;
+}
+.paragraf{
+    background: rgb(211,178,224);
+}
